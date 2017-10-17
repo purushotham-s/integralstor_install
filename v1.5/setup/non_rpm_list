@@ -10,6 +10,7 @@ netatalk.tar.gz
 netifaces-0.10.5.tar.gz
 python-crontab-2.1.1.tar.gz
 python-dateutil-2.6.0.tar.gz
+reportlab.tar.gz
 setuptools-29.0.1.tar.gz
 six-1.10.0.tar.gz
 sysstat-11.0.5.tar.xz

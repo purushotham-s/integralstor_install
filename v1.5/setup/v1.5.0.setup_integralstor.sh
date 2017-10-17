@@ -158,6 +158,14 @@ cd /tmp
 rm -rf cron_descriptor-1.2.6*
 
 cd /tmp
+/usr/bin/wget -c "$nrpm_path/reportlab.tar.gz"
+/bin/tar xzf reportlab.tar.gz
+cd reportlab
+pip install --no-index --find-links="/tmp/reportlab/" reportlab
+cd /tmp
+rm -rf reportlab*
+
+cd /tmp
 /usr/bin/wget -c "$nrpm_path/nagios-plugins-2.1.4.tar.gz"
 /bin/tar -xvf nagios-plugins-2.1.4.tar.gz
 cd nagios-plugins-2.1.4
