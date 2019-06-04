@@ -177,8 +177,8 @@ make install
 cd /tmp
 rm -rf nagios-plugins-2.1.4*
 cd /tmp
-/usr/bin/wget -c "$nrpm_path/3.0.1.tar.gz"
-/bin/tar -xvf 3.0.1.tar.gz
+/usr/bin/wget -c "$nrpm_path/nrpe-3.0.1.tar.gz"
+/bin/tar -xvf nrpe-3.0.1.tar.gz
 cd nrpe-3.0.1/
 ./configure
 make all
