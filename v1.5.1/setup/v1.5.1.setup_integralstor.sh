@@ -190,7 +190,7 @@ make install-config
 make install-init
 cd /tmp
 rm -rf nrpe*
-rm -rf 3.0.1*
+rm -rf nrpe-3.0.1*
 
 modprobe ipmi_devintf
 modprobe 8021q
